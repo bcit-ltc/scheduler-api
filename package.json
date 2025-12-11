@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@issues.ltc.bcit.ca:web-apps/openlab-scheduler/scheduler-api.git"
+    "url": "git@github.com:bcit-ltc/scheduler-api.git"
   },
   "keywords": [],
   "author": "",

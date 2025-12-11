@@ -54,9 +54,16 @@ The resulting `Bearer token` needs to be added to each request.
 
 *Also note: The JWT payload is where the user context is added (`Admin`, `Student`, `Instructor`).*
 
-
 ### Documentation
 
 The code comments are collected and can be found in the `js_documentation` folder after running `docker compose up`
 
 code comments are served as jsdocs format locally at localhost:9000/documentation
+
+## License
+
+Mozilla Public License 2.0
+
+## About
+
+Developed in 🇨🇦 Canada at [BCIT's](https://www.bcit.ca/) [Learning and Teaching Centre](https://www.bcit.ca/learning-teaching-centre/). [Contact Us](mailto:courseproduction@bcit.ca).

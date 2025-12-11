@@ -1,5 +1,9 @@
 FROM node:19.4.0-alpine
-LABEL maintainer="courseproduction@bcit.ca"
+
+LABEL maintainer=courseproduction@bcit.ca
+LABEL org.opencontainers.image.source="https://github.com/bcit-ltc/scheduler-api"
+LABEL org.opencontainers.image.description="web application designed to help BCIT's Nursing instructors communicate the calendar of the OpenLab."
+
 ARG GIT_TAG
 ENV GIT_TAG=${GIT_TAG:-0.0.0}
 
